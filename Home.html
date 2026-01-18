@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Tasks | Task Hero Dubai</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">TASK HERO <span>DUBAI</span></div>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</header>
+
+<nav id="menu">
+  <a href="index.html">Home</a>
+  <a href="auto.html">Auto Tasks</a>
+  <a href="home.html">Home Tasks</a>
+  <a href="gifts.html">Gift & Event Tasks</a>
+  <a href="personal.html">Personal Tasks</a>
+  <a href="delivery.html">Private Deliveries</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" style="background:url('https://images.unsplash.com/photo-1581578731548-c64695cc6952') center/cover">
+  <div class="hero-overlay">
+    <h1>Home Tasks</h1>
+    <p>Reliable home support and assistance in Dubai</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Our Home Services</h2>
+  <ul>
+    <li>🏠 Garage Cleaning – from AED 120</li>
+    <li>📦 Moving & Relocation Assistance – from AED 150</li>
+    <li>🛒 Errands & Shopping – AED 60/hr</li>
+    <li>🧹 General Home Support – AED 60/hr</li>
+  </ul>
+  <a class="btn" href="https://wa.me/971523944074">Book Now</a>
+</section>
+
+<footer>
+  © Task Hero Dubai | Since 2023
+</footer>
+
+<a class="whatsapp" href="https://wa.me/971523944074" target="_blank">💬</a>
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+  menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+  menu.style.flexDirection = "column";
+}
+</script>
+
+</body>
+</html>
